@@ -3,15 +3,21 @@ from textbase import bot, Message
 from typing import List
 from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex, LLMPredictor, ServiceContext, PromptHelper, StorageContext, load_index_from_storage
 from langchain import OpenAI
-
+from twilio.rest import Client
 import spacy
+from dotenv import load_dotenv
+
+load_dotenv()
+
 nlp = spacy.load("en_core_web_sm")
 
 def preprocess(text):
     doc = nlp(text)
     return [sent.text for sent in doc.sents]
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = os.getenv("OPEN_AI_KEY")
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
+auth_token = os.getenv("TWILIO_SECRET_KEY")
 
 
 @bot()
@@ -31,7 +37,7 @@ def on_message(message_history: List[Message], state: dict = None):
         llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7, model_name="text-davinci-003"))
 
         # read documents from datadoc folder
-        documents = SimpleDirectoryReader("datadoc", text_splitter=preprocess).load_data()
+        documents = SimpleDirectoryReader("datadoc").load_data()
 
         # init index with documents data
         # This index is created using the LlamaIndex library. It processes the document content and constructs the index to facilitate efficient querying
@@ -50,6 +56,21 @@ def on_message(message_history: List[Message], state: dict = None):
     bot_response = query_engine.query(message_history[-1]["content"][0]["value"])
 
     bot_response = str(bot_response)
+
+    if "sms" in message_history[-1]["content"][0]["value"]:
+        print("Sending SMS to user")
+        client = Client(account_sid, auth_token)
+        sms_response = query_engine.query("sms response")
+        
+        print(sms_response)
+        message = client.messages \
+                    .create(
+                        body=sms_response,
+                        from_='+16562186014',
+                        to='+918056147849'
+                    )
+
+        bot_response = "Sure, I have sent you a SMS with the details."
 
     response = {
         "data": {

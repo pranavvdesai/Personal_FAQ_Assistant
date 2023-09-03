@@ -64,3 +64,12 @@ current ongoing matches are ind vs aus, ind vs sl, which tickets do u want to bu
 sure, here is the link to buy your tickets and pay securely http://localhost:3000/matches.
 these are the contests based on your tokens available and past wins http://localhost:3000/home.
 The next rare attribute based on your personality is dhonis cricket bat which is 89% rare. You can interact with our products, participate in contests, buy match tickets to get this captain cool attribute on your avatar.
+
+The ticket cost for the match is 1000 INR, you can pay using your tokens or INR.
+Both the matches are located in Mumbai. The match starts at 7:00 PM IST.
+
+the booking starts at 6:00 PM IST, you can book your tickets from the link http://localhost:3000/matches.
+if user inputs remind me 30 mins before the booking starts, then the user will get a notification 30 mins before the booking starts. The response will be "Sure! You will get a notification 30 mins before the booking starts".
+
+sms response:
+Negate this sentence 'You will receive an SMS notification after 30 minutes when the booking starts' suppose the user wants to receive an sms after 30 miniutes for when the booking starts. So the user will say something like 'I want to receive an sms after 30 minutes for when the booking starts', take this response nad generate me a response which act like a sms and state that 'The booking has started'. Similarly apart from booking the user can ask to notify about anything. Take that anything and generate a response which act like a sms and state that 'The anything has started'.
