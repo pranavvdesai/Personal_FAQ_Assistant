@@ -28,3 +28,11 @@ The Personalised FAQ Chatbot is a custom chatbot designed to answer user queries
 3. When a user submits a question, the chatbot searches for relevant segments within the index.
 4. The identified segments are paired with the user's query and sent to the LLM (GPT-3.5-turbo) via LangChain.
 5. The LLM generates a personalized response based on the user's query and the document content.
+
+## Creating index
+![image](https://github.com/pranavvdesai/Personal_FAQ_Assistant/assets/74852751/1627de47-8586-4183-b4af-3a237645417e)
+
+## Querying index
+![image](https://github.com/pranavvdesai/Personal_FAQ_Assistant/assets/74852751/75e0bcd3-73a3-4651-84a8-6017b8e428ed)
+
+
