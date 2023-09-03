@@ -1,0 +1,66 @@
+Problem identified:
+Attending sports matches has become more of a social activity and a way of showing support for a team, rather than a way to enjoy the sport. This has led to a lack of engagement from fans in the overall experience of the game.
+There is a need for a better mechanism aimed towards keeping the fan experience at the center and thereby encouraging more active participation from fans during cricket matches.
+Despite the presence of contests and other activities during matches, only a small percentage of fans actually participate in them due to a lack of incentives.
+Fans are still required to bring physical copies of tickets to enter the stadium for live matches, which is an outdated system.
+This outdated ticketing system leads to corruption and inflated prices for tickets.
+The current ticketing system only serves the purpose of allowing entry into the stadium to watch the live match and does not offer any additional benefits or functionality to enhance the fan experience.
+
+idea:
+Implementing NFTs as ticket wallets for matches, can provide more value to the fans and enhance the overall fan experience. It would hold value in the form of tokens, which can be spent on food, merchandise, or other offerings at the stadium.
+This can also serve as an entry point to participate in further contests during the game, providing an incentive for fans to engage actively and potentially earn more tokens.
+Fans would have a unique avatar, created at the time of profile creation. As the user engages with ICC/FIFA/FIA etc and its products, participates in contests using tokens, the avatar level increases along with the potential to earn more tokens. Once a certain level has been reached, the fans get access to VIP areas, meet players, get signed match ball, etc.
+This proposed solution offers a better way for viewers to engage with the game and offers incentives for more active participation.
+Lack of fan engagement during sports matches is an existing problem.
+Proposed solution is a one stop platform for fans to play, buy and interact with ICC/FIFA/FIA etc, products.
+Providing incentives and rewards through tokens, games and contests encourages active participation during the match.
+Tokens can be used for various activities like redeeming food at stadium, access to exclusive merchandise, participating in contests, etc.
+Avatar on the other hand has a more significant role wherein users can get access to VIP areas, exclusive meetups with players, etc
+This leads to a more enjoyable fan experience and a boost in overall viewership.
+
+features:
+
+Ticket associated with tokens.
+Tokens can be used to buy food, goodies, and redeemable for merchandise, entry to contests.
+Tickets as tokens provide hassle-free entry to stadiums, matches, and other contests.
+QR associated with each ticket, so that the user doesn't have to wait in the long queues for buying food or entry into stadiums.
+The tokens get deducted from the user and gets transferred to the seller upon scanning.
+These tickets can be transferred after a match.
+
+A personalised Avatar is given to each user upon signing in.
+These avatars act as a entry point to exclusive events like meet and greet with cricketers, signed ball, chat with commentator, access to ground and VIP boxes.
+The more the user interacts with products of ICC/FIFA etc, the more contests he wins, the more his avatar levels up
+As you progress through levels with your avatar, you will receive a distinctive accessory that becomes increasingly rare as you advance. The more rare your avatar's attributes are, the more rare your avatar becomes, increasing the value of its associated NFT.
+This could also be integrated with crictos, where the avatar can be the users own player and could inherit traits from a real world cricketer.
+
+fans:
+Fans can compete for a rare attribute for their avatar for eg, dhoni's digital bat as a accessory.
+Favorite moments posted during the match on social media using customized filters.
+Most liked post could get featured on the big screen during the match.
+This provides an opportunity for fans to interact with their favorite teams and players in a unique and exciting way.
+
+sellers:
+Valuable data given by us for targeted ads
+Can also sponsor events through, allowing them to reach a larger customer base.
+ Sellers' products can reach a wider audience.
+Beneficial for small business owners/budding entrepreneurs
+Increased user activity due to incentives provided by our platform
+
+business model:
+Token Sales:  On top of the free 1:1 tokens offered on every ticket purchase, We would sell additional tokens to fans to participate in contests or earn rewards during the match. These tokens could be used to order food, merchandise, player meetups, access to VIP area, participate in contests etc. thus contributing to the revenue.
+
+Sponsorship and Advertising: A brand could sponsor a contest or offer a reward in exchange for tokens in our platform. These Personalized ads will involve collecting and analyzing data on user behavior to deliver targeted ads. This approach will benefit both advertisers, who will see improved conversion rates, and users, who will receive more relevant and engaging ads. To ensure user privacy and data protection, the model will adhere to relevant regulations and industry best practices.
+
+Partnership with Food and Merchandise Vendors:  We could partner with food and merchandise vendors to accept the tokens earned by fans during the match as a form of payment. This would provide an additional revenue stream for the vendors, and we could receive a percentage of the revenue generated. Later these vendors could also use these tokens to advertise their stalls, merchandise etc. on our platform, and also could exchange with INR.
+
+future scope:
+custom AR/VR filters based on avatar level
+complete implementation of engagement with sports products such as Crictos/FIFA+, etc.
+developing our own private blockchain and ledger
+personalized notifications and feed based on user's interaction with products Machine Learning and Artificial intelligence
+market research with stadium vendors and store owners to implement the functionality for stadium stall owners and food vendors in stadium
+
+current ongoing matches are ind vs aus, ind vs sl, which tickets do u want to buy and how many.
+sure, here is the link to buy your tickets and pay securely http://localhost:3000/matches.
+these are the contests based on your tokens available and past wins http://localhost:3000/home.
+The next rare attribute based on your personality is dhonis cricket bat which is 89% rare. You can interact with our products, participate in contests, buy match tickets to get this captain cool attribute on your avatar.
