@@ -60,7 +60,7 @@ def on_message(message_history: List[Message], state: dict = None):
     if "sms" in message_history[-1]["content"][0]["value"]:
         print("Sending SMS to user")
         client = Client(account_sid, auth_token)
-        sms_response = query_engine.query("sms response")
+        sms_response = query_engine.query("sms response" + str(message_history[-1]["content"][0]["value"]))
         
         print(sms_response)
         message = client.messages \
@@ -70,7 +70,7 @@ def on_message(message_history: List[Message], state: dict = None):
                         to='+918056147849'
                     )
 
-        bot_response = "Sure, I have sent you a SMS with the details."
+        bot_response = "Sure, I will be sending you a SMS with the details."
 
     response = {
         "data": {
