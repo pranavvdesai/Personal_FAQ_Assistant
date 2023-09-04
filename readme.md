@@ -1,4 +1,4 @@
-# Custom Chatbot for your personal data
+# Custom Chatbot for your personal data + Twilio Integration
 
 ## Overview
 
@@ -20,6 +20,7 @@ The Personalised FAQ Chatbot is a custom chatbot designed to answer user queries
 - **Customization:** Developers can fine-tune the chatbot for specific tasks, such as summarization, translation, or sentiment analysis.
 - **LlamaIndex Integration:** The chatbot integrates with LlamaIndex for efficient data indexing and retrieval.
 - **LangChain Support:** LangChain simplifies interaction with LLM providers like OpenAI, making it easier to integrate different LLM models.
+- **Twilio SMS:** Users can ask the bot to send notifications about any event and the bot will send an SMS to their number notifying them accordingly of the event.
 
 ## How It Works
 
@@ -35,4 +36,10 @@ The Personalised FAQ Chatbot is a custom chatbot designed to answer user queries
 ## Querying index
 ![image](https://github.com/pranavvdesai/Personal_FAQ_Assistant/assets/74852751/75e0bcd3-73a3-4651-84a8-6017b8e428ed)
 
+## Video Link
+https://www.loom.com/share/d660c37dd0f04fe983cb651bbf1eecdf?sid=91f4c59e-8f42-45a2-9061-45005b357ca7
 
+## Deployed Bot
+Bot ID: 97
+https://bot.textbase.ai/pranavdesai.psd/custom
+The bot doesn't work when deployed, but works great locally. I addressed this issue and it was pointed out that the nltk module was more than 256 MB. Hence, not working.
