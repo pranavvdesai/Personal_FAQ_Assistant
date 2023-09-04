@@ -43,3 +43,7 @@ https://www.loom.com/share/d660c37dd0f04fe983cb651bbf1eecdf?sid=91f4c59e-8f42-45
 Bot ID: 97
 https://bot.textbase.ai/pranavdesai.psd/custom
 The bot doesn't work when deployed, but works great locally. I addressed this issue and it was pointed out that the nltk module was more than 256 MB. Hence, not working.
+
+## Twilio SMS functionality
+![WhatsApp Image 2023-09-04 at 12 35 04](https://github.com/pranavvdesai/Personal_FAQ_Assistant/assets/74852751/6fcbd8e8-01e6-48e4-91ad-76b555b7cee7)
+
